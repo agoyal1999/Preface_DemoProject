@@ -1,0 +1,90 @@
+#banner {
+	width: 100%;
+	position: relative;
+}
+
+#logo{
+	width: 15%;
+	transform: translate(5%,5%);
+	z-index: 1;
+}
+
+* {
+	margin : 0;
+	padding: 0;
+}
+
+#topBanner {
+	display: flex;
+}
+
+#logo, #topBanner > div, h1, #topBanner > h2 {
+	position: absolute;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	position: absolute;
+	width: 444px;
+	height: 131px;
+	left: 9px;
+	top: 148px;
+
+	font-family: 'Inter';
+	font-style: bold;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 48px;
+	color: #E3E3E3;
+	transform: translate(3%,220%);
+}
+
+
+h2{
+	font-size: 200%;
+	padding: 20px;
+}
+
+#topBanner > h2{
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+	transform: translate(10%,1300%);
+}
+
+p{
+	font-size: 150%;
+	color: black;
+	background-color: white;
+	border-radius: 20px;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+.place{
+	height: 330px;
+	width: 330px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+ol, li {
+	list-style-type: none;
+	padding: 10px;
+	text-align: left;
+}
+
